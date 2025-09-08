@@ -1,0 +1,45 @@
+.History_Container {
+    max-width: var(--container-width);
+    background-color: black;
+    margin-inline: auto;
+    /* height: 100vh; */
+    /* padding: var(--padding-main); */
+    padding: 10rem 0;
+
+}
+
+.History_Title {
+    flex-direction: column;
+    font-size: clamp(4.5rem, 3.5rem + 5vw, 9.5rem);
+}
+
+.History_Info {
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: var(--gap-main);
+}
+
+.History_Text {
+    flex-direction: column;
+    gap: var(--gap-main);
+    line-height: 1.8;
+}
+
+
+.History_Info img {
+    width: 500px;
+    /* aspect-ratio: 4/3; */
+}
+
+.History_Info button {
+    padding: 1rem 1rem;
+    width: 50%;
+    border-radius: 2rem;
+    border: none;
+}
+
+.History_Info button:hover {
+    color: black;
+    background-color: white;
+}

@@ -1,0 +1,15 @@
+/* ======================== */
+/* STYLING MAIN PAGE */
+/* ======================== */
+
+
+.first_Section {
+  background-image: url("/Vader/Vader-Profile.jpg");
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid var(--text-color-accent);
+}
