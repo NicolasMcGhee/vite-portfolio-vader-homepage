@@ -5,6 +5,7 @@ import './App.css'
 import History from './components/History'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Featured from './components/Featured'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,8 +16,9 @@ function App() {
         <Navbar />
         <Hero />
       </section>
-      <section className='second_Section'>
+      <section className='second_Section lato-regular'>
         <History/>
+        <Featured />
       </section>
       
     </>
