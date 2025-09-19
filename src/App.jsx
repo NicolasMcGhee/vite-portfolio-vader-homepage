@@ -6,6 +6,8 @@ import History from './components/History'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Featured from './components/Featured'
+import OurApproach from './components/OurApproach'
+import FocusedOn from './components/FocusedOn'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,12 +16,17 @@ function App() {
     <>
       <section className='first_Section'>
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
       </section>
       <section className='second_Section lato-regular'>
         <History/>
         <Featured />
       </section>
+      <section className='second_Section lato-regular'>
+        <OurApproach />
+        <FocusedOn />
+      </section>
+      
       
     </>
   )

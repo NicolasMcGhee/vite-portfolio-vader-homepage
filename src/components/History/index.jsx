@@ -9,7 +9,7 @@ export default function History() {
       {/* Title */}
       <div className="flex History_Title">
         <p>LIFE OF A JEDI</p>
-        <p>BIRTH OF A SITH</p>
+        <p style={{marginInline: "auto"}}>BIRTH OF A SITH</p>
       </div>
       {/* Image and Text */}
       <div className="History_Info flex">
